@@ -1,4 +1,4 @@
-module Crud
+module BookManagement
 
 go 1.20
 

@@ -1,7 +1,7 @@
 package store
 
 import (
-	"Crud/models"
+	"BookManagement/models"
 	"gorm.io/gorm"
 )
 

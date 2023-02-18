@@ -1,9 +1,9 @@
 package main
 
 import (
-	"Crud/controller"
-	"Crud/service"
-	"Crud/store"
+	"BookManagement/controller"
+	"BookManagement/service"
+	"BookManagement/store"
 	"github.com/gin-gonic/gin"
 	"github.com/kelseyhightower/envconfig"
 	"log"

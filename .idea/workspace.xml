@@ -4,22 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="665c893e-d877-4df5-9589-4e2fc7e28cab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Crud.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/BookController.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/book.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/dto.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/book_service.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/book_store.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/initDB.go" afterDir="false" />
+    <list default="true" id="665c893e-d877-4df5-9589-4e2fc7e28cab" name="Changes" comment="working">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BooksManagement.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/BookController.go" beforeDir="false" afterPath="$PROJECT_DIR$/controller/BookController.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/book_service.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/book_service.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/book_store.go" beforeDir="false" afterPath="$PROJECT_DIR$/store/book_store.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/initDB.go" beforeDir="false" afterPath="$PROJECT_DIR$/store/initDB.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,8 +65,17 @@
   }
 }]]></component>
   <component name="RunManager">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="BooksManagement" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="Crud" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build Crud" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Crud" />
+      <module name="BooksManagement" />
       <working_directory value="$PROJECT_DIR$" />
       <envs>
         <env name="URL" value="postgres://postgresql:example@localhost:5432/books" />
@@ -93,6 +96,29 @@
       <filePath value="$PROJECT_DIR$/main.go" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="BooksManagement" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="DIRECTORY" />
+      <package value="Crud" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="BooksManagement" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="BooksManagement" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go build Crud" />
@@ -107,12 +133,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676738486426</updated>
-      <workItem from="1676738487455" duration="8178000" />
+      <workItem from="1676738487455" duration="8845000" />
     </task>
+    <task id="LOCAL-00001" summary="working">
+      <created>1676746961625</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676746961625</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="working" />
+    <option name="LAST_COMMIT_MESSAGE" value="working" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

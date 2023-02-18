@@ -1,8 +1,8 @@
 package service
 
 import (
-	"Crud/models"
-	"Crud/store"
+	"BookManagement/models"
+	"BookManagement/store"
 )
 
 type BookService interface {

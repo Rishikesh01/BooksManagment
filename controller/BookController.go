@@ -1,8 +1,8 @@
 package controller
 
 import (
-	"Crud/models"
-	"Crud/service"
+	"BookManagement/models"
+	"BookManagement/service"
 	"github.com/gin-gonic/gin"
 	"net/http"
 	"strconv"
