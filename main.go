@@ -27,7 +27,7 @@ func main() {
 	bookService := service.NewBookService(bookStore)
 	bookCntrl := controller.NewBookController(bookService)
 	router := gin.Default()
-
+	gin.SetMode(gin.ReleaseMode)
 	grpV1 := router.Group("/v1")
 
 	grpV1.GET("/all/books", bookCntrl.GetAllBook)
