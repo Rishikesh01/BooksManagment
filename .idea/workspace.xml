@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="665c893e-d877-4df5-9589-4e2fc7e28cab" name="Changes" comment="minor change">
+    <list default="true" id="665c893e-d877-4df5-9589-4e2fc7e28cab" name="Changes" comment="added docker">
       <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -168,7 +168,7 @@
       <option name="presentableId" value="Default" />
       <updated>1676738486426</updated>
       <workItem from="1676738487455" duration="11194000" />
-      <workItem from="1676749963835" duration="673000" />
+      <workItem from="1676749963835" duration="974000" />
     </task>
     <task id="LOCAL-00001" summary="working">
       <created>1676746961625</created>
@@ -184,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676747617941</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added docker">
+      <created>1676750936918</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676750936918</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,7 +211,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="working" />
     <MESSAGE value="minor change" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor change" />
+    <MESSAGE value="added docker" />
+    <option name="LAST_COMMIT_MESSAGE" value="added docker" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
